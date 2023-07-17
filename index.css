@@ -57,7 +57,12 @@ margin-left: 200px;
   background-color: chocolate;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 991px) {
+  .container {
+    align-items: flex-start;
+  }
+}
+@media (max-width: 767px) {
   .container {
     flex-direction: column;
   }
