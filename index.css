@@ -59,7 +59,7 @@ margin-left: 200px;
 
 @media (max-width: 991px) {
   .container {
-    align-items: flex-start;
+    width: 50%;
   }
 }
 @media (max-width: 767px) {
